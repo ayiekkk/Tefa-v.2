@@ -76,24 +76,20 @@ nav {
     width: 90%;
 }
 
-.navbar-brand {
+.navbar-brand h1 {
     font-size: 1.5em;
     font-weight: 600;
     color: white;
 }
 
-.navbar-brand:hover {
-    color: white;
-}
-
-.nav-link {
+a.nav-link {
     font-size: 1.2em;
     color: white;
     transition: all .5s ;
     border-radius: 10px;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
     transform: translateY(-3px);
     background-color: #e74c3c;
     color: white;
@@ -288,6 +284,49 @@ nav {
 .card:hover .card-description {
     transform: translateY(0);
 }
+
+
+/* FASILITAS */
+
+.container-fluid.fasilitas {
+    /* background-color: #95a5a6; */
+    /* width: 100%; */
+    width: 95%;
+}
+
+.img-facility {
+    border-radius: 25px;
+}
+
+.desc-facility .nama-wisata h2{
+    font-size: 2.5em;
+    text-align: start;
+    transition: .3s all ease-in;
+}
+
+.desc-facility .facility p {
+    transition: .3s all ease-in;
+}
+
+.desc-facility:hover .nama-wisata h2{
+    transform: translateY(-15px);
+    letter-spacing: 3px;
+}
+
+.desc-facility:hover .facility p{
+    transform: scaleX(1) translateY(-10px);
+    /* letter-spacing: 1.5px; */
+}
+
+/* HISTORY */
+
+.container-fluid.history {
+    width: 95%;
+}
+
+
+
+/* FOOTER */
 
 .footer {
     background: #001E1D;
