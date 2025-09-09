@@ -85,7 +85,7 @@ nav {
 a.nav-link {
     font-size: 1.2em;
     color: white;
-    transition: all .5s ;
+    transition: all .5s;
     border-radius: 10px;
 }
 
@@ -298,7 +298,7 @@ a.nav-link:hover {
     border-radius: 25px;
 }
 
-.desc-facility .nama-wisata h2{
+.desc-facility .nama-wisata h2 {
     font-size: 2.5em;
     text-align: start;
     transition: .3s all ease-in;
@@ -308,12 +308,12 @@ a.nav-link:hover {
     transition: .3s all ease-in;
 }
 
-.desc-facility:hover .nama-wisata h2{
+.desc-facility:hover .nama-wisata h2 {
     transform: translateY(-15px);
     letter-spacing: 3px;
 }
 
-.desc-facility:hover .facility p{
+.desc-facility:hover .facility p {
     transform: scaleX(1) translateY(-10px);
     /* letter-spacing: 1.5px; */
 }
@@ -322,6 +322,105 @@ a.nav-link:hover {
 
 .container-fluid.history {
     width: 95%;
+}
+
+
+/* EVENT PAGE */
+
+.event {
+    padding : 50px 0;
+    text-align: center;
+}
+.event h2 {
+    margin-bottom: 1rem;
+}
+.event p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+/* .event.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center
+} */
+
+.event-card {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.event-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.event-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.wrapper {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+
+.event-card {
+    width: 300px;
+    height: 200px;
+
+}
+
+/* Event Details */
+.event-details {
+    padding: 5rem 7% 1.4rem;
+    text-align: left;
+}
+
+.event-details h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+/* .event .row {
+    display: flex;
+} */
+
+.event .row .event-img {
+    flex: 1 1 45rem;
+}
+
+.event .row .event-img img {
+    width: 100%;
+}
+
+.event .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.event .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8;
+}
+
+.wrapper img {
+    width:100px;
 }
 
 
@@ -441,21 +540,5 @@ a.nav-link:hover {
 
     50% {
         transform: scale(1.1);
-    }
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .footer-brand {
-        font-size: 1.8rem;
-    }
-
-    .social-links {
-        text-align: center;
-    }
-
-    .contact-item {
-        justify-content: center;
-        text-align: center;
     }
 }
